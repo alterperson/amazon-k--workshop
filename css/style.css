@@ -64,6 +64,12 @@
 	font-style: normal;
 }
 
+*, 
+*:after, 
+*:before {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Circe", sans-serif;
     margin: 0;
@@ -108,7 +114,7 @@ input[type="radio"].visually-hidden {
 
 .site-header {
     background-color: #f8f8f8;
-    padding-top: 65px;
+    padding-top: 45px;
     padding-bottom: 145px;
 }
 
@@ -167,7 +173,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
-    padding: 15px 55px;
+    padding: 15px 50px;
 
     font-size: 18px;
     font-weight: 600;
@@ -175,6 +181,7 @@ input[type="radio"].visually-hidden {
     color: #ffffff;
 
     background-color: #ff6c6c;
+    border: none;
     border-radius: 4px;
 }
 
@@ -184,4 +191,150 @@ input[type="radio"].visually-hidden {
 
 .header-content__image {
     flex-basis: 40%;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.section__title {
+    margin-bottom: 50px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex-basis: 31%;
+    background-color: #f8f8f8;
+    box-shadow: 0px 4px 4px rgba(104, 104, 104, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+
+.catalog__card {
+    margin-bottom: 30px;
+}
+
+.card__image {
+    margin-bottom: 28px;
+}
+
+.card__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.card__title {
+    width: 190px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: left;
+}
+
+.card__price {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card__button {
+    width: 100%;
+}
+
+.review-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-card {
+    flex-basis: 24%;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(131, 131, 131, 0.25);
+    border-radius: 10px;
+}
+
+.review-card__title {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.review-card__text {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.footer {
+    background-color: #f8f8f8;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    flex-basis: 45%;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    flex-basis: 50%;
+}
+
+.input {
+    font-size: 14px;
+    line-height: 21px;
+
+    padding: 25px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(217, 217, 217, 0.25);
+    border-radius: 5px;
+    border: none;
+}
+
+.form__inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form__input {
+    width: 47%;
+}
+
+.form__textarea {
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.form__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+}
+
+.social__link {
+    text-decoration: none;
+    margin-left: 20px;
 }
