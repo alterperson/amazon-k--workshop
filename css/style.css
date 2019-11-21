@@ -127,6 +127,7 @@ input[type="radio"].visually-hidden {
 .site-header-logo {
     font-size: 18px;
     font-weight: 800;
+    user-select: none;
 }
 
 .nav {
@@ -322,6 +323,7 @@ input[type="radio"].visually-hidden {
     display: block;
     margin-bottom: 30px;
     width: 100%;
+    resize: none;
 }
 
 .form__buttons {
