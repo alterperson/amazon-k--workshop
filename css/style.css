@@ -336,11 +336,12 @@ input[type="radio"].visually-hidden {
 .social {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .social__link {
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 @media (max-width: 1200px) {
