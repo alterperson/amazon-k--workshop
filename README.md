@@ -1,2 +1,2 @@
-# Amazon-k
- Макет сайта Amazon-k по воркшопу Glo Academy - https://alterperson.github.io/amazonk--gloAcademy/
+# Amazonka
+ Макет сайта Amazonka - https://alterperson.github.io/amazonka/
